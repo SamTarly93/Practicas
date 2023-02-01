@@ -1,0 +1,25 @@
+from tkinter import *
+root = Tk()
+root.title("IN3")
+marco_principal = Frame()
+
+etiqueta1 = Label(root, text="PRACTICAS 2", padx=0).pack()
+
+barra_etiqueta1 = Entry(etiqueta1, text="¿Buscas algo?").pack()
+
+etiqueta2 = Label(root, text="PRACTICAS 2", padx=0).pack()
+barra_etiqueta2 = Entry(etiqueta1, text="¿Buscas algo?").pack()
+
+boton_etiqueta1=Button(etiqueta1, text="Boton").pack()
+
+boton_etiqueta2=Button(etiqueta1, text="Boton2").pack()
+
+boton_etiqueta3=Button(etiqueta1, text="Boton3").pack()
+boton_etiqueta4=Button(etiqueta1, text="Boton3").pack()
+boton_etiqueta5=Button(etiqueta1, text="Boton3").pack()
+
+marco_principal.config(width="400", height="400")
+
+marco_principal.pack()
+
+root.mainloop()
